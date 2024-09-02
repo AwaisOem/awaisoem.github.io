@@ -1,0 +1,133 @@
+.services{
+    width: 100vw;
+}
+.srvsintro{
+    width: 100vw;
+    height: 20vh;
+    padding: 0;
+    margin-bottom: 100px;
+}
+.srvsintro h2{
+    border-left:solid #FF3342;
+/* text-align: center; */
+    border-width: 6px;
+    border-radius: 4px;
+    padding-left:20px;
+    font-size: 3.5rem;
+    
+    margin: 30vh 44% 5vh;
+    box-sizing: content-box;
+}
+.srvsintro p{
+    padding: 0px 5%;
+    text-align: center;
+}
+.service{
+    width: 100%;
+    box-sizing: border-box;
+}
+.srvs1{
+     display: inline-flex;
+    
+     width: 100%;
+     height: max-content;
+    box-sizing: border-box;
+    
+  }
+.srvs11{
+  
+   height: 320px;
+    overflow: hidden;
+    width: 33.333%;
+    margin: 30px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 4px 30px;
+    /* flex: 0 0 33.333333%; */
+    transition: 0.5s;
+    box-shadow: 0 20px 40px 0 rgb(28 30 35 / 20%);
+
+  
+}
+.srvs11:hover{
+    
+    top: 6px;
+    box-shadow: 0 20px 40px 0 rgba(177, 20, 54, 0.2);
+}
+.srvsicon{
+    color: #FF3342;
+    text-align: center;
+    padding: 33px;
+    font-size: 4rem;
+}
+.icn{
+    color: #17202a;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    text-shadow: 0 0 black
+}
+.srvspara{
+    text-align: center;
+}
+.srvsnum{
+    border: solid #FF3342;
+    background: #FF3342;
+    color: #ffffff;
+    border-radius:0 0 70px 0 ;
+    font-weight: bold;
+    width: 4.375rem;
+    height: 4.375rem;
+    box-sizing: border-box;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 0;
+    right:0 ;
+    top: 0;
+    bottom: 0;
+}
+.srvsmum{
+    background-color: #17202a;
+    width: 100%;
+  
+    color: #ffffff;
+}
+.snalign{
+    /* justify-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center!important;
+}
+.sn{
+    margin: 7%;
+    
+}
+.counter-text{
+    display:block;
+}
+.counter-text label{
+    font-size: inherit;
+    font-weight: 550; 
+    
+}
+.count-number{
+    font-size: 3rem;
+    border-left:solid #FF3342 ;
+    border-radius: 7px;
+    border-width: 3px;
+    display: block;
+    padding-left: 10px;
+    font-weight:600;
+}

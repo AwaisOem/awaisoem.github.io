@@ -1,0 +1,255 @@
+
+.about{
+    width: 100vw;
+    box-sizing: border-box;
+}
+.intro{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 50px;
+    
+}
+#about_me{
+    font-size: 3.1rem;
+    font-style: normal;
+    line-height: 80px;
+    font-weight: bold;
+    border-left: solid #FF3342;
+    border-width: 8px;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+#Me{
+    color: #FF3342;
+}
+.content2{
+    box-sizing: border-box;
+    display: inline-flex;
+    width: 100%;
+}
+.con2{
+    width: 92vw;
+    box-sizing: border-box;
+    margin: 30px;
+}
+#red_awais{
+    color: #FF3342;
+    font-size: 30px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-shadow: #17202a;
+
+    margin-bottom: 10px;
+    font-weight: 620;
+    line-height: 30px
+}
+#B_programmer{
+    color: #17202a;
+    font-size: 22px;
+    font-style: italic;
+    text-shadow: #17202a;
+    margin-bottom: 10px;
+    font-weight: 720;
+    line-height: 26px;
+    opacity: 80%;
+}
+.con21 p span{
+    font-style: italic;
+    font-weight: 400;
+}
+.con2btn{
+    margin-top: 30px;
+}
+.hire_me{
+    margin-left: 10px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #FF3342;
+    background-color: transparent;
+    /* font-weight: 600; */
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    color: #FF3342;
+    
+    }
+    .hire_me:hover{
+        border-color: #FF3342;;
+        background-color: #FF3342;;
+        color: white;
+        
+    }
+    .download_cv{
+        margin-left: 10px;
+        border-radius: 20px;
+        border: solid;
+        border-color: #FF3342;
+        background-color: #FF3342;
+        /* font-weight: 600; */
+        padding: 10px 30px;
+        font-size: 1.1rem;
+        color: white;
+        
+    }
+    .download_cv:hover{
+        border-color: #17202a;;
+        background-color: #17202a;;
+        color: white;
+    }
+    .con22{
+        margin: 0;
+        height: 30px;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .con22btn{
+        padding-left: 20px;
+        
+        box-sizing: border-box;
+    }
+    .con22btn a{
+        color: #FF3342;
+        text-decoration: none;
+    }
+    .con22btn a:hover{
+        color: #FF3342;
+        text-decoration: underline;
+    }
+    .skillpercent{
+        width: 90vw;
+        box-sizing: border-box;
+        margin: 10px 40px;
+    
+    }
+.progress{
+    margin-top: 10px;
+    /* width: 100%; */
+    border-radius: 10px ;
+    border-style: ridge;
+    display: inline-flex;
+}
+.progress-bar1{
+    border-style: ridge;
+    border-radius: 10px;
+    height: 17px;
+    background-color: #FF3342;
+    width: 127%;
+}
+.progress-bar2{
+    height: 17px;
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: #FF3342;
+    width: 112%;
+}
+.progress-bar3{
+    height: 17px;
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: #FF3342;
+    width: 127%;
+}
+.progress-bar4{
+    height: 17px;
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: #FF3342;
+    width: 20%;
+}
+.progress-bar5{
+    height: 17px;
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: #FF3342;
+    width: 270%;
+}
+.progress-bar1:hover{
+    border-style: ridge;
+    border-radius: 10px;
+    height: 17px;
+    background:linear-gradient(to right, #dd2476,#ff512f);
+   
+}
+.progress-bar2:hover{
+    height: 17px;
+    border-style: ridge;
+    border-radius: 10px;
+    background:linear-gradient(to right, #dd2476,#ff512f);
+   
+}
+.progress-bar3:hover{
+    height: 17px;
+    border-style: ridge;
+    border-radius: 10px;
+    background:linear-gradient(to right, #dd2476,#ff512f);
+  
+}
+.progress-bar4:hover{
+    height: 17px;
+    border-style: ridge;
+    border-radius: 10px;
+    background:linear-gradient( to right,#dd2476,#ff512f);
+    
+}
+.progress-bar5:hover{
+    height: 17px;
+    border-style: ridge;
+    border-radius: 10px;
+    background:linear-gradient(to right, #dd2476,#ff512f);
+   
+}
+.progress-percent{
+width: 50vw;
+height: inherit;
+/* position: absolute; */
+    color: #17202a;
+
+
+text-align: right;
+}
+/* Education */
+.education_Experience{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.education{
+color: white;
+background-color: black;
+box-sizing: border-box;
+padding: 30px;
+width: 100%;
+}
+.expreince{
+width: 100%;
+padding: 30px;
+color: black;
+box-sizing: border-box;
+}
+.h_e_e{
+border-left:solid #FF3342;
+border-width: 6px;
+border-radius: 4px;
+padding-left: 20px;
+font-weight: 800;
+font-size: 3rem;
+}
+hr{
+    margin: 10px 0;
+opacity: 20%;
+}
+.coon h6{
+color: #FF3342;
+font-size: 1rem;
+padding:30px 0 15px 0;
+}
+.coon h4{
+font-size: 1.7rem;
+margin: 5px 0;
+}
+.coon h5{
+font-size:1.3rem;
+margin: 21px 0;
+color: #FF3342;
+}

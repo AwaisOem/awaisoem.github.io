@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+.container{
+    font-family: Nunito;
+    display: flex;
+    flex-direction: column;
+   transition: 0.3s;
+    width: 100vw;
+    
+}
+header {
+    position: fixed;
+    padding: 15px 0;
+      height: 5rem;
+      width: 100vw;
+      margin: 0;
+      top: 0;
+      left: 0;
+      box-sizing: border-box;
+      box-shadow: 0 20px 40px 0 rgb(28 30 35 / 20%);
+      z-index: 999 !important;
+      background: rgba(255, 255, 255, 95%) !important;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    #header{
+        box-sizing: border-box;
+        margin: 8px 30px;
+    }
+    .logo{
+        font-size: 2rem;
+        font-style: normal;
+       
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    #folio{
+        color: #FF3342;
+    }
+    .Btn1{
+        display: flex;
+        margin-top: -2.5rem;
+        justify-content: flex-end;
+    }
+
+    .btn11{
+        margin-left: 250px;
+        box-sizing: border-box;
+       
+    }
+    .btn12{
+        margin-left: 25px;
+        font-size: 1.1rem;
+        border-left: solid #FF3342;
+        padding-left: 20px;
+      
+        
+    }
+    #register{
+        margin-left: 10px;
+        border-radius: 10px;
+        border: solid;
+        border-color: #FF3342;
+        background-color: #FF3342;
+       
+        font-size: 1.1rem;
+        color: white;
+        padding: 7px;
+    
+    }
+    #register:hover{
+        border-color: #17202a;;
+        background-color: #17202a;;
+        color: white;
+        transition: 0.4s;
+    
+    }
+    #login{
+        color: black;
+        text-decoration: none;
+    }
+    #login:hover{
+        color:#FF3342;
+        border-bottom:solid #FF3342;
+        border-width: 2px;
+        transition: 0.4s;
+    }
+    .h_icn_hover{
+        font-size: 1.1rem;
+        display: inline-flex;
+        padding-left: 18px;
+        border:transparent;
+      
+        
+    }    
+    .hbtns{
+        border: transparent;
+        color: black;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .active ,.hbtns:hover{
+        background-color: rgba(255, 51, 66, 0.863);
+        color: white;
+       
+    }    
+  
+
+
+
+/* ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+
+
+    .home{
+        box-sizing: border-box;
+        display:flex;
+        /* height: 120vh; */
+        margin: 75px 0;
+        width: 100%;
+        
+        box-shadow: 0 20px 40px 0 #1c1e2333;
+        background-image: url(./images/bg1.jpeg);
+    
+    }
+    .content1{
+        box-sizing: border-box;
+    
+        width: 60vw;
+        padding:10rem 0px 1rem 3rem ;
+    
+    }
+    .con11{
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    #dash{
+        font-size: 1.4rem;
+        color: #FF3342;
+    }
+    
+    .con12{
+        font-size: 4.4rem;
+        font-style: normal;
+        line-height: 80px;
+        font-weight: bold;
+        text-transform: capitalize;
+        color: #FF3342;
+
+        /* opacity: 0; */
+        /* font-family: ; */
+    }
+    .con13{
+        font-size: 4rem;
+        font-style: normal;
+        line-height: 80px;
+        font-weight: bold;
+        text-transform: capitalize;
+        color: #17202a;
+        width: 100%;
+    }
+    .con1btn{
+        margin-bottom: 200px;
+    }
+  
+    .con13:hover{
+        transition: 0.4s;
+        color: #FF3342;
+        /* opacity: 0; */
+        /* font-family: ; */
+    }
+    .con13 span:before{
+        content: '';
+        animation: animate infinite 10s;
+        transition: step-end;
+    
+    }
+    @keyframes animate{
+        0%{
+            content: 'AWAIS RAZA';
+        }
+        40%{
+            content: 'WEB DEVELOPER';
+        }
+        60%{
+            content: 'PROGRAMMER';
+            margin-bottom: 40px;
+        }
+        80%{
+            content: 'STUDENT';
+        }
+        100%{
+            content: 'AWAIS RAZA';
+        }
+    }
+    .con14{
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    #learn_more{
+       
+        margin-left: 10px;
+        margin-top: 15px;
+        border-radius: 10px;
+        border: solid;
+        border-color: #17202a;
+        background-color: #17202a;
+        /* font-weight: 600; */
+        padding: 10px 30px;
+        font-size: 1.1rem;
+        color: white;
+    
+    }
+    #learn_more:hover{
+        border-color: #FF3342;;
+        background-color: #FF3342;
+        box-shadow: 0 12px 10px 0 rgb(28 30 35 / 20%);
+        color: white;
+        transition: 0.4s;
+    
+    }
+    #get_started{
+        
+        margin-left: 10px;
+        border-radius: 10px;
+        border: solid;
+        border-color: #FF3342;
+        background-color: #FF3342;
+        /* font-weight: 600; */
+        padding: 10px 30px;
+        font-size: 1.1rem;
+        color: white;
+    
+    }
+    #get_started:hover{
+        border-color: #17202a;
+        box-shadow: 0 12px 10px 0 rgb(28 30 35 / 20%);
+        background-color: #17202a;;
+        color: white;
+        transition: 0.4s;
+    }
+    .img_control{
+        width: 450px;
+        
+         border-color:transparent;
+        border-radius: 50%;
+        height: 450px;
+        background:linear-gradient(#ff512f , #dd2476);
+        margin-right: 30px;
+        margin-top: 50px;
+        position: relative;       
+    }
+    .img_control:hover{
+        background:linear-gradient(90deg,#ff512f, #dd2476);
+        transition: 0.4s;  
+        
+    }
+    #pimg{
+         border-radius: 50%;
+        /*width: 450px;
+        height: 533px;
+        margin-top: 10px;
+        margin-left: -5.3rem; */
+        box-sizing: border-box;
+        width: 400px;
+        
+        height: 400px;
+        margin-top: 23px;
+        margin-left: 23px;
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Footer{
+    align-self:baseline;
+}
+    .footer{
+        width:100vw;
+        padding: 1rem 0;
+        background-color: #FF3342;
+        text-align: center;
+        color: white;
+        box-sizing: border-box;
+    }
+    .footer_heading h2{
+        font-size: 2.7rem;
+        font-weight: 800;
+        color: #17202a;
+    }
+    .socialbtn{
+        border: solid white;
+        background-color: #FF3342;
+        color: white;
+        border-radius: 8px;
+        width: 3rem;
+        line-height: 0.9rem;
+        height: 3rem;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        outline: solid #FF3342;
+        outline-width: 6px;
+        transition-duration: 600ms;
+        transform-origin: center;
+        
+    }
+    .socialbtn:hover{
+        
+        outline-color: white;
+        border-color: #FF3342;
+        background-color: white;
+        color:#FF3342;
+    }
+    .socialbtn:click{
+        outline-color: white;
+        border-color: #FF3342;
+        background-color: white;
+        color:#FF3342;
+    }
+
+
+
+
+   
+
+#scroll-top{
+    
+    background-color: #FF3342;
+   border: solid;
+border-radius: 8px;
+height: 50px;
+width: 50px;
+padding: 3px;
+display: border-box;
+    line-height: 50px;
+    text-align: center;
+
+position: fixed;
+top: 87%;
+right: 2%;
+
+}
+#scroll-top:hover{
+    background-color: rgba(0,0,0, 20%);
+}
+.smoothscroll{
+    color: white;
+    text-decoration: none;
+}

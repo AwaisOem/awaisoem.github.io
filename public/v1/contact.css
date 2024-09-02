@@ -1,0 +1,150 @@
+/* Contact */
+.contact{
+    width: 100vw;
+    background-color: white;
+
+}
+.introcontact{
+    width: 100%;
+}
+.introcontact h2{
+    border-left:solid #FF3342;
+    
+    border-width: 6px;
+    border-radius: 4px;
+    padding-left:20px;
+    font-size: 2.7rem;
+    margin:10vh 8% 0;
+}
+.introcontact h2 >span{
+color: #FF3342;
+}
+.introcontact p{
+   margin:0 8% ;
+    font-size: 1.1rem;
+    margin-top: 7px;
+}
+.contactdetail{
+    width: 100vw;
+  
+    display: inline-flex;
+}
+
+
+
+form{
+ 
+    box-sizing: border-box;
+    margin: 5%;
+}
+
+.textfields{
+  
+    box-sizing: border-box;
+    margin:1vh 3vw;
+    
+}
+.txtfield{
+    font-size: 1.1rem;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+.messagefield{
+    font-size: 1.1rem;
+    margin:1vh 3vw;
+    box-sizing: border-box;
+}
+.iptfld{
+    margin-bottom: 15px;
+    border-bottom:solid #FF3342;
+    border-radius: 50px;
+    border-width: 0.1em;
+    border-right: transparent ;
+    border-top: transparent ;
+    border-left: transparent ;
+    box-shadow: 0 0px 10px 0 rgb(28 30 35 / 20%);
+    padding: 5vh 34vw 5vh 4vw;
+}
+.iptfld2{
+    border-bottom:solid #FF3342;
+    border-radius: 50px;
+    border-width: 0.1em;
+    border-right: transparent ;
+    border-top: transparent ;
+    border-left: transparent ;
+    box-shadow: 0 0px 10px 0 rgb(28 30 35 / 20%);
+    padding: 4vh 34vw 17vh 4vw;
+    resize:none;
+}
+#Sumit{
+    border: solid #FF3342;
+    background-color: #FF3342;
+    color: #ffffff;
+    border-radius: 40px;
+    /* margin: 0px 40px 31px 26px; */
+    margin: 6vh 23vw;
+    padding: 20px 30px;
+}
+#Sumit:hover{
+    transition-duration: 600ms;
+    transform-origin: center;
+    box-shadow: 0 12px 10px 0 rgb(28 30 35 / 20%);
+    border-color: #17202a;
+    background-color: #17202a;
+    color: #ffffff;
+}
+/* .address{
+    width: 30vw;
+    box-sizing: border-box;
+    
+    display: block;
+    height: 110vh;
+    margin:30px 10px 20px 0 ;
+background-color: blue;}
+.add{
+    height: 20%;
+    width: 100%;
+    box-sizing: border-box;
+    align-content: center;
+    background-color: yellow;
+}*/
+.add{
+    justify-self: center;
+    margin:5vw 3vw;
+    text-align: center;
+    
+}
+.icnnn{
+    background-color: #FF3342;
+    width: 45px;
+    box-shadow: 0 0px 10px 0 rgb(28 30 35 / 20%);
+    height: 45px;
+    border-radius: 50%;
+    border: solid #FF3342;
+   margin: 2vh 40%;
+  line-height: 4.5;
+}
+
+
+.add h3{
+    text-align: center;
+}
+.add a{
+ 
+    text-decoration: none;
+    color: #17202a;
+    
+}
+.add a:hover{
+ 
+    text-decoration: none;
+    color: #FF3342;
+    transition-duration: 600ms;
+    
+}
+
+
+
+
+
+
